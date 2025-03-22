@@ -8,5 +8,6 @@ export default defineConfig({
   server: {
     host: "0.0.0.0", // Allows access from any IP
     port: 3001, // Runs on port 3001
+    allowedHosts: ["*"],
   },
 })
